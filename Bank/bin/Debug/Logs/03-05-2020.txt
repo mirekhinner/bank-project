@@ -1,0 +1,29 @@
+﻿Log was created 03-05-2020 18:10:43
+03-05-2020 18:10:43 [INFO]- Main window opened
+03-05-2020 18:11:32 [INFO]- Admin window opened. Admin: admin
+03-05-2020 18:11:43 [INFO]- Main window opened
+03-05-2020 18:11:50 [INFO]- Official window opened. Official: 420
+03-05-2020 18:11:52 [INFO]- Main window opened
+03-05-2020 18:12:08 [INFO]- Customer window opened. Customer: 0011223344
+03-05-2020 18:12:12 [INFO]- Main window opened
+03-05-2020 19:25:59 [INFO]- Main window opened
+03-05-2020 19:32:46 [INFO]- Main window opened
+03-05-2020 19:32:53 [INFO]- Official window opened. Official: 420
+03-05-2020 19:32:56 [INFO]- Transaction window opened by official: 420
+03-05-2020 19:38:45 [INFO]- Main window opened
+03-05-2020 19:38:51 [INFO]- Official window opened. Official: 420
+03-05-2020 19:38:54 [INFO]- Transaction window opened by official: 420
+03-05-2020 19:44:49 [INFO]- Main window opened
+03-05-2020 19:44:59 [INFO]- Official window opened. Official: 420
+03-05-2020 19:45:01 [INFO]- Transaction window opened by official: 420
+03-05-2020 19:50:09 [INFO]- Main window opened
+03-05-2020 19:50:16 [INFO]- Official window opened. Official: 420
+03-05-2020 19:50:18 [INFO]- Transaction window opened by official: 420
+03-05-2020 19:59:15 [INFO]- Main window opened
+03-05-2020 19:59:56 [INFO]- Main window opened
+03-05-2020 20:00:02 [INFO]- Official window opened. Official: 420
+03-05-2020 20:00:04 [INFO]- Transaction window opened by official: 420
+03-05-2020 20:00:48 [INFO]- Main window opened
+03-05-2020 20:00:54 [INFO]- Official window opened. Official: 420
+03-05-2020 20:00:56 [INFO]- Transaction window opened by official: 420
+03-05-2020 20:02:49 [INFO]- Transaction window opened by official: 420

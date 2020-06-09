@@ -1,0 +1,103 @@
+﻿<Window x:Class="Bank.OfficialWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bank"
+        mc:Ignorable="d"
+        xmlns:System="clr-namespace:System;assembly=mscorlib"
+        xmlns:types="clr-namespace:Bank.Types" 
+        Title="OfficialWindow" Height="450" Width="800">
+
+    <Window.Resources>
+        <ObjectDataProvider x:Key="enumValues"
+                        MethodName="GetValues" ObjectType="{x:Type System:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="types:OfficialType"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <ObjectDataProvider x:Key="enumValuesCust"
+                        MethodName="GetValues" ObjectType="{x:Type System:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="types:CustomerType"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Window.Resources>
+
+    <Grid x:Name="OfficialWindow1" Margin="0,0,0,0">
+        <Menu HorizontalAlignment="Left" Height="22" VerticalAlignment="Top" Width="84" Margin="10,10,0,0">
+            <MenuItem Header="Account">
+                <MenuItem x:Name="itemOfAccPass" Header="Change password" Click="itemOfAccPass_Click"/>
+                <MenuItem x:Name="itemOfAccNew" Header="Create new official" Click="itemOfAccNew_Click"/>
+                <MenuItem x:Name="itemCusAccNew" Header="Create new customer" Click="itemCusAccNew_Click"/>
+                <MenuItem x:Name="itemCusAccInfo" Header="Customer information" Click="itemCusAccInfo_Click"/>
+            </MenuItem>
+        </Menu>
+
+        <!-- Heading -->
+        <Label Content="Please, select desired action from the menu" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="240,38,192,0" FontWeight="Bold" Width="362"/>
+
+        <!-- Change password -->
+        <Label x:Name="changeOfPassLabel" Content="Change password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,56,0,0" FontWeight="Bold" Visibility="Hidden"/>
+        <Label x:Name="changeOfPassLabel2" Content="Enter the password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,82,0,0" Visibility="Hidden" />
+        <TextBox x:Name="changeOfPassBox" HorizontalAlignment="Left" Height="23" Margin="149,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.323,-0.277" Visibility="Hidden"/>
+        <Button x:Name="updatePassOffical" Content="Update" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="373,85,0,0" Click="updatePassOffical_Click" Visibility="Hidden"/>
+
+        <!-- Create official -->
+        <Label x:Name="newOfLabel" Content="Create new official" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,125,0,0" FontWeight="Bold" Visibility="Hidden"/>
+        <Label x:Name="newOfLabel1" Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,151,0,0" Visibility="Hidden"/>
+        <Label x:Name="newOfLabel2" Content="Surname" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,182,0,0" Visibility="Hidden"/>
+        <Label x:Name="newOfLabel3" Content="Address" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,213,0,0" IsEnabled="False" Visibility="Hidden"/>
+        <Label x:Name="newOfLabel4" Content="Mail" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,244,0,0" Visibility="Hidden"/>
+        <Label x:Name="newOfLabel5" Content="Phone" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,275,0,0" Visibility="Hidden"/>
+        <Label x:Name="newOfLabel6" Content="Company no." HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,306,0,0" Visibility="Hidden"/>
+        <Label x:Name="newOfLabel7" Content="Password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,337,0,0" Visibility="Hidden"/>
+        <TextBox x:Name="nameOfBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="149,155,0,0" Visibility="Hidden"/>
+        <TextBox x:Name="surnameOfBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="149,185,0,0" Visibility="Hidden"/>
+        <TextBox x:Name="addressOfBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="149,216,0,0" IsEnabled="False" Visibility="Hidden"/>
+        <TextBox x:Name="mailOfBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="149,247,0,0" Visibility="Hidden"/>
+        <TextBox x:Name="phoneOfBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="149,278,0,0" Visibility="Hidden"/>
+        <TextBox x:Name="loginOfBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="149,309,0,0" Visibility="Hidden"/>
+        <TextBox x:Name="passwordOfBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="149,341,0,0" Visibility="Hidden"/>
+        <ComboBox x:Name="typeComboOfBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="149,372,0,0" 
+            ItemsSource="{Binding Source={StaticResource enumValues}}" Visibility="Hidden"/>
+        <Label x:Name="newOfLabel8" Content="Type" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,368,0,0" Visibility="Hidden"/>
+        <Button x:Name="createOfficial" Content="Create" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="373,371,0,0" Click="createOfficial_Click" Visibility="Hidden"/>
+
+        <!-- Create customer -->
+        <Label x:Name="newCusLabel" Content="Create new customer" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,125,0,0" FontWeight="Bold" Visibility="Hidden"/>
+        <Label x:Name="newCusLabel1" Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,151,0,0" Visibility="Hidden"/>
+        <Label x:Name="newCusLabel2" Content="Surname" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,182,0,0" Visibility="Hidden"/>
+        <Label x:Name="newCusLabel3" Content="Address" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,213,0,0" IsEnabled="False" Visibility="Hidden"/>
+        <Label x:Name="newCusLabel4" Content="Mail" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,244,0,0" Visibility="Hidden"/>
+        <Label x:Name="newCusLabel5" Content="Phone" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,275,0,0" Visibility="Hidden"/>
+        <Label x:Name="newCusLabel6" Content="SSN" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,306,0,0" Visibility="Hidden"/>
+        <Label x:Name="newCusLabel7" Content="Password" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,337,0,0" Visibility="Hidden"/>
+        <TextBox x:Name="nameCusBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="149,155,0,0" Visibility="Hidden"/>
+        <TextBox x:Name="surnameCusBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="149,185,0,0" Visibility="Hidden"/>
+        <TextBox x:Name="addressCusBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="149,216,0,0" IsEnabled="False" Visibility="Hidden"/>
+        <TextBox x:Name="mailCusBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="149,247,0,0" Visibility="Hidden"/>
+        <TextBox x:Name="phoneCusBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="149,278,0,0" Visibility="Hidden"/>
+        <TextBox x:Name="loginCusBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="149,309,0,0" Visibility="Hidden"/>
+        <TextBox x:Name="passwordCusBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="149,341,0,0" Visibility="Hidden"/>
+        <ComboBox x:Name="typeComboCusBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="149,372,0,0" 
+            ItemsSource="{Binding Source={StaticResource enumValuesCust}}" Visibility="Hidden"/>
+        <Label x:Name="newCusLabel8" Content="Type" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="29,368,0,0" Visibility="Hidden"/>
+        <Button x:Name="createCustomer" Content="Create" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="373,371,0,0" Click="createCustomer_Click" Visibility="Hidden"/>
+        
+        <!-- Address -->
+        <Label x:Name="newAddLabel1" Content="Street" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="373,155,0,0" Visibility="Hidden"/>
+        <Label x:Name="newAddLabel2" Content="Street number" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="373,185,0,0" Visibility="Hidden"/>
+        <Label x:Name="newAddLabel3" Content="City" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="373,216,0,0" Visibility="Hidden"/>
+        <Label x:Name="newAddLabel4" Content="Postal code" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="373,247,0,0" Visibility="Hidden"/>
+        <Label x:Name="newAddLabel5" Content="Country" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="373,278,0,0" Visibility="Hidden"/>
+        <TextBox x:Name="streetBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="496,154,0,0" Visibility="Hidden"/>
+        <TextBox x:Name="streetNoBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="496,185,0,0" Visibility="Hidden"/>
+        <TextBox x:Name="cityBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="496,216,0,0" Visibility="Hidden"/>
+        <TextBox x:Name="postalBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="496,247,0,0" Visibility="Hidden"/>
+        <TextBox x:Name="countryBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="496,281,0,0" Visibility="Hidden"/>
+
+        <!-- Logout-->
+        <Button Content="Logout" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="709,17,0,0" Click="Button_Click"/>
+    </Grid>
+</Window>

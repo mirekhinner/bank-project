@@ -1,0 +1,61 @@
+﻿Log was created 06-05-2020 07:16:47
+06-05-2020 07:16:47 [INFO]- Main window opened
+06-05-2020 07:19:05 [INFO]- Main window opened
+06-05-2020 07:30:57 [INFO]- Main window opened
+06-05-2020 07:32:11 [INFO]- Main window opened
+06-05-2020 07:34:51 [INFO]- Main window opened
+06-05-2020 07:39:31 [INFO]- Main window opened
+06-05-2020 07:40:01 [INFO]- Main window opened
+06-05-2020 07:41:53 [INFO]- Main window opened
+06-05-2020 07:47:17 [INFO]- Main window opened
+06-05-2020 07:51:06 [INFO]- Main window opened
+06-05-2020 08:31:46 [INFO]- Main window opened
+06-05-2020 08:32:16 [INFO]- Main window opened
+06-05-2020 08:32:37 [INFO]- Main window opened
+06-05-2020 08:39:49 [INFO]- Main window opened
+06-05-2020 08:41:41 [INFO]- Main window opened
+06-05-2020 08:42:48 [INFO]- Main window opened
+06-05-2020 08:44:42 [INFO]- Main window opened
+06-05-2020 08:45:10 [INFO]- Admin window opened. Admin: 
+06-05-2020 09:06:33 [INFO]- Main window opened
+06-05-2020 09:06:49 [INFO]- Admin window opened. Admin: 
+06-05-2020 09:06:51 [INFO]- Main window opened
+06-05-2020 09:06:56 [INFO]- Admin window opened. Admin: 
+06-05-2020 09:07:34 [INFO]- Main window opened
+06-05-2020 09:07:40 [INFO]- Admin window opened. Admin: 
+06-05-2020 09:09:18 [INFO]- Main window opened
+06-05-2020 09:09:24 [INFO]- Admin window opened. Admin: admin
+06-05-2020 09:24:35 [INFO]- Main window opened
+06-05-2020 09:27:24 [INFO]- Main window opened
+06-05-2020 09:27:34 [INFO]- Admin window opened. Admin: admin
+06-05-2020 09:32:01 [INFO]- Main window opened
+06-05-2020 09:32:06 [INFO]- Admin window opened. Admin: admin
+06-05-2020 09:35:38 [INFO]- Main window opened
+06-05-2020 09:35:43 [INFO]- Admin window opened. Admin: admin
+06-05-2020 09:37:17 [INFO]- Main window opened
+06-05-2020 09:37:33 [INFO]- Customer window opened. Customer: 1234567890
+06-05-2020 09:37:35 [INFO]- Main window opened
+06-05-2020 09:37:44 [INFO]- Official window opened. Official: 420
+06-05-2020 09:39:35 [INFO]- Main window opened
+06-05-2020 09:39:41 [INFO]- Official window opened. Official: 420
+06-05-2020 09:40:45 [INFO]- Transaction window opened by official: 420
+06-05-2020 09:45:04 [INFO]- Main window opened
+06-05-2020 09:45:19 [INFO]- Official window opened. Official: 420
+06-05-2020 09:45:50 [INFO]- Transaction window opened by official: 420
+06-05-2020 10:57:56 [INFO]- Main window opened
+06-05-2020 10:58:26 [INFO]- Main window opened
+06-05-2020 10:58:36 [INFO]- Admin window opened. Admin: admin
+06-05-2020 10:58:45 [INFO]- Main window opened
+06-05-2020 10:58:51 [INFO]- Official window opened. Official: 420
+06-05-2020 10:58:55 [INFO]- Main window opened
+06-05-2020 10:59:23 [INFO]- Customer window opened. Customer: 1234567890
+06-05-2020 10:59:26 [INFO]- Main window opened
+06-05-2020 11:03:43 [INFO]- Main window opened
+06-05-2020 11:05:54 [INFO]- Customer window opened. Customer: 1234567890
+06-05-2020 11:06:03 [INFO]- Main window opened
+06-05-2020 11:06:34 [INFO]- Admin window opened. Admin: admin
+06-05-2020 11:10:29 [INFO]- Main window opened
+06-05-2020 11:11:03 [INFO]- Official window opened. Official: 420
+06-05-2020 11:11:29 [INFO]- Transaction window opened by official: 420
+06-05-2020 11:21:43 [INFO]- Main window opened
+06-05-2020 11:25:12 [INFO]- Main window opened

@@ -1,0 +1,72 @@
+﻿Log was created 04-05-2020 08:04:28
+04-05-2020 08:04:28 [INFO]- Main window opened
+04-05-2020 08:06:02 [INFO]- Main window opened
+04-05-2020 08:06:11 [INFO]- Official window opened. Official: 420
+04-05-2020 08:06:16 [INFO]- Transaction window opened by official: 420
+04-05-2020 10:23:30 [INFO]- Main window opened
+04-05-2020 10:23:44 [INFO]- Admin window opened. Admin: admin
+04-05-2020 10:24:31 [INFO]- Main window opened
+04-05-2020 10:24:39 [INFO]- Official window opened. Official: 420
+04-05-2020 10:25:11 [INFO]- Transaction window opened by official: 420
+04-05-2020 17:36:09 [INFO]- Main window opened
+04-05-2020 17:37:46 [INFO]- Official window opened. Official: 420
+04-05-2020 17:37:49 [INFO]- Transaction window opened by official: 420
+04-05-2020 17:43:05 [INFO]- Main window opened
+04-05-2020 17:43:46 [INFO]- Official window opened. Official: 420
+04-05-2020 17:43:48 [INFO]- Transaction window opened by official: 420
+04-05-2020 17:45:12 [INFO]- Main window opened
+04-05-2020 18:43:56 [INFO]- Main window opened
+04-05-2020 18:44:23 [INFO]- Official window opened. Official: 420
+04-05-2020 18:44:25 [INFO]- Transaction window opened by official: 420
+04-05-2020 18:50:59 [INFO]- Main window opened
+04-05-2020 18:51:09 [INFO]- Official window opened. Official: 420
+04-05-2020 18:51:12 [INFO]- Transaction window opened by official: 420
+04-05-2020 19:02:35 [INFO]- Main window opened
+04-05-2020 19:02:43 [INFO]- Official window opened. Official: 420
+04-05-2020 19:02:45 [INFO]- Transaction window opened by official: 420
+04-05-2020 19:06:49 [INFO]- Main window opened
+04-05-2020 19:06:59 [INFO]- Official window opened. Official: 420
+04-05-2020 19:07:05 [INFO]- Transaction window opened by official: 420
+04-05-2020 19:24:18 [INFO]- Main window opened
+04-05-2020 19:24:31 [INFO]- Official window opened. Official: 420
+04-05-2020 19:24:32 [INFO]- Transaction window opened by official: 420
+04-05-2020 19:28:22 [INFO]- Main window opened
+04-05-2020 19:28:28 [INFO]- Official window opened. Official: 420
+04-05-2020 19:28:30 [INFO]- Transaction window opened by official: 420
+04-05-2020 19:37:51 [INFO]- Main window opened
+04-05-2020 19:38:01 [INFO]- Official window opened. Official: 420
+04-05-2020 19:38:02 [INFO]- Transaction window opened by official: 420
+04-05-2020 19:38:12 [INFO]- Main window opened
+04-05-2020 19:39:33 [INFO]- Main window opened
+04-05-2020 19:40:07 [INFO]- Official window opened. Official: 420
+04-05-2020 19:40:09 [INFO]- Transaction window opened by official: 420
+04-05-2020 19:59:55 [INFO]- Main window opened
+04-05-2020 20:00:03 [INFO]- Official window opened. Official: 420
+04-05-2020 20:00:12 [INFO]- Transaction window opened by official: 420
+04-05-2020 20:07:08 [INFO]- Main window opened
+04-05-2020 20:07:14 [INFO]- Official window opened. Official: 420
+04-05-2020 20:07:16 [INFO]- Transaction window opened by official: 420
+04-05-2020 20:23:34 [INFO]- Main window opened
+04-05-2020 20:23:54 [INFO]- Official window opened. Official: 420
+04-05-2020 20:23:57 [INFO]- Transaction window opened by official: 420
+04-05-2020 20:24:25 [INFO]- Main window opened
+04-05-2020 20:25:56 [INFO]- Main window opened
+04-05-2020 20:26:03 [INFO]- Official window opened. Official: 420
+04-05-2020 20:26:05 [INFO]- Transaction window opened by official: 420
+04-05-2020 20:36:32 [INFO]- Main window opened
+04-05-2020 20:36:38 [INFO]- Official window opened. Official: 420
+04-05-2020 20:36:40 [INFO]- Transaction window opened by official: 420
+04-05-2020 20:43:54 [INFO]- Main window opened
+04-05-2020 20:44:01 [INFO]- Official window opened. Official: 420
+04-05-2020 20:44:03 [INFO]- Transaction window opened by official: 420
+04-05-2020 20:46:52 [INFO]- Main window opened
+04-05-2020 20:47:01 [INFO]- Official window opened. Official: 420
+04-05-2020 20:47:05 [INFO]- Transaction window opened by official: 420
+04-05-2020 20:52:15 [INFO]- Main window opened
+04-05-2020 20:52:17 [INFO]- Transaction window opened by official: 420
+04-05-2020 21:04:33 [INFO]- Main window opened
+04-05-2020 21:04:39 [INFO]- Admin window opened. Admin: admin
+04-05-2020 21:05:38 [INFO]- Main window opened
+04-05-2020 21:21:45 [INFO]- Main window opened
+04-05-2020 21:21:51 [INFO]- Admin window opened. Admin: admin
+04-05-2020 21:22:05 [INFO]- Main window opened

@@ -1,0 +1,60 @@
+﻿<Window x:Class="Bank.TransactionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bank"
+        mc:Ignorable="d"
+        Title="TransactionWindow" Height="520" Width="800">
+    <Grid>
+        <Label Content="Selected customer" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,86,0,0" FontWeight="Bold"/>
+        <ListView x:Name="TransactionsListView" HorizontalAlignment="Left" Height="448" VerticalAlignment="Top" Width="348" Margin="427,24,0,0" ItemsSource="{Binding}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Variable Symbol" DisplayMemberBinding="{Binding VariableSymbol}"/>
+                    <GridViewColumn Header="Date" DisplayMemberBinding="{Binding Path=DateTransaction, StringFormat='yyyy-MM-dd'}"/>
+                    <GridViewColumn Header="Payer" DisplayMemberBinding="{Binding Path=Payer}"/>
+                    <GridViewColumn Header="Recipient" DisplayMemberBinding="{Binding Path=Recipient}"/>
+                    <GridViewColumn Header="Amount" DisplayMemberBinding="{Binding Path=Amount}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Content="Name:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,104,0,0"/>
+        <Label Content="Surname:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,130,0,0"/>
+        <Label Content="SSN:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,156,0,0"/>
+        <Label Content="Email:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,182,0,0"/>
+        <Label Content="Phone no.:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,208,0,0"/>
+        <Label x:Name="PhoneLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="127,208,0,0"/>
+        <Label x:Name="EmailLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="127,182,0,0"/>
+        <Label x:Name="SSNLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="127,156,0,0"/>
+        <Label x:Name="SurnameLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="127,130,0,0"/>
+        <Label x:Name="NameLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="127,104,0,0"/>
+        <Label Content="Address" HorizontalAlignment="Left" Margin="12,239,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="Street:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,270,0,0"/>
+        <Label Content="Street no.:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,296,0,0"/>
+        <Label Content="City:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,322,0,0"/>
+        <Label Content="Postal code:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,348,0,0"/>
+        <Label Content="Country:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,374,0,0"/>
+        <Label x:Name="StreetLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="127,270,0,0"/>
+        <Label x:Name="StreetNoLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="127,296,0,0"/>
+        <Label x:Name="CityLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="127,322,0,0"/>
+        <Label x:Name="PostCodeLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="127,348,0,0"/>
+        <Label x:Name="CountryLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="127,374,0,0"/>
+        <TextBox x:Name="SSNSearchBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="127,24,0,0"/>
+        <Button x:Name="SSNSearchButton" Content="Search" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74" Margin="260,24,0,0" Click="SSNSearchButton_Click"/>
+        <Label Content="Search by SSN:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,20,0,0" FontWeight="Bold"/>
+        <Label Content="Current balance:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,52,0,0" FontWeight="Bold"/>
+        <Label x:Name="BalanceLabel" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="127,52,0,0"/>
+        <CheckBox x:Name="incomingCheckbox" Content="Incoming" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="342,354,0,0" Checked="incomingCheckbox_Checked" IsEnabled="False" Unchecked="incomingCheckbox_Unchecked"/>
+        <CheckBox x:Name="outcomingCheckbox" Content="Outcoming" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="342,374,0,0" Checked="outcomingCheckbox_Checked" IsEnabled="False" Unchecked="outcomingCheckbox_Unchecked"/>
+        <Button x:Name="sortAmountButton" Content="Amount" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="342,141,0,0" Click="sortAmountButton_Click" IsEnabled="False"/>
+        <Button x:Name="sortDateButton" Content="Date" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="342,166,0,0" Click="sortDateButton_Click" IsEnabled="False"/>
+        <Label Content="Sort by:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="342,110,0,0"/>
+        <Label Content="Range:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="342,215,0,0"/>
+        <TextBox x:Name="rangeOneTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Margin="342,246,0,0" IsEnabled="False"/>
+        <TextBox x:Name="rangeTwoTextBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Margin="342,274,0,0" IsEnabled="False"/>
+        <Button x:Name="applyRangeButton" Content="Apply" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="342,302,0,0" IsEnabled="False" Click="applyRangeButton_Click"/>
+        <Button x:Name="refreshButton" Content="Refresh" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="342,425,0,0" IsEnabled="False" Click="refreshButton_Click"/>
+
+    </Grid>
+</Window>

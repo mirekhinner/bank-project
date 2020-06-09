@@ -1,0 +1,81 @@
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\Bank.exe.config
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\Bank.exe
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\Bank.pdb
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\obj\Debug\Bank.csprojAssemblyReference.cache
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\obj\Debug\MainWindow.g.cs
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\obj\Debug\App.g.cs
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\obj\Debug\Bank_MarkupCompile.cache
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\obj\Debug\Bank_MarkupCompile.lref
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\obj\Debug\MainWindow.baml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\obj\Debug\Bank.g.resources
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.cache
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\obj\Debug\Bank.exe
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\obj\Debug\Bank.pdb
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\obj\Debug\AdminWindow.g.cs
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\obj\Debug\AdminWindow.baml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\mongocrypt.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\Crc32C.NET.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\DnsClient.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\MongoDB.Bson.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\MongoDB.Driver.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\SharpCompress.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\Snappy.NET.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\System.Buffers.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\Crc32C.NET.xml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\DnsClient.xml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\MongoDB.Bson.xml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\MongoDB.Driver.xml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\Snappy.NET.xml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\bin\Debug\System.Buffers.xml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\obj\Debug\OfficialWindow.g.cs
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\obj\Debug\Bank_Content.g.cs
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\obj\Debug\OfficialWindow.baml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Bank\Bank\obj\Debug\Bank.csproj.CopyComplete
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\mongocrypt.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\Bank.exe.config
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\Bank.exe
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\Bank.pdb
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\Crc32C.NET.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\DnsClient.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\MongoDB.Bson.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\MongoDB.Driver.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\SharpCompress.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\Snappy.NET.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\System.Buffers.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\Crc32C.NET.xml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\DnsClient.xml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\MongoDB.Bson.xml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\MongoDB.Driver.xml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\Snappy.NET.xml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\bin\Debug\System.Buffers.xml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\Bank.csprojAssemblyReference.cache
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\AdminWindow.g.cs
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\MainWindow.g.cs
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\OfficialWindow.g.cs
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\App.g.cs
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\Bank_Content.g.cs
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\Bank_MarkupCompile.cache
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\Bank_MarkupCompile.lref
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\AdminWindow.baml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\MainWindow.baml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\OfficialWindow.baml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\Bank.g.resources
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\Bank.Properties.Resources.resources
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\Bank.csproj.GenerateResource.cache
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\Bank.csproj.CopyComplete
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\Bank.exe
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\Bank.pdb
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\CustomerWindow.g.cs
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\CustomerWindow.baml
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\TransactionWindow.g.cs
+C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\TransactionWindow.baml

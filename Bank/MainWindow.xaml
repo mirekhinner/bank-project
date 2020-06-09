@@ -1,0 +1,21 @@
+﻿<Window x:Class="Bank.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bank"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="tietoevry.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Rectangle Fill="#FFFFFF" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="230" Margin="282,136,0,0" Opacity=".8" RadiusX="1" RadiusY="1"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="421,258,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox x:Name="Login" HorizontalAlignment="Left" Height="24" Margin="376,174,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="Password" HorizontalAlignment="Left" Height="24" Margin="376,216,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="298,144,0,0" Text="Please enter your credentials: "/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Margin="298,220,0,0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Username:" VerticalAlignment="Top" Margin="298,178,0,0"/>
+    </Grid>
+</Window>

@@ -1,0 +1,4 @@
+﻿Log was created 09-06-2020 09:36:40
+09-06-2020 09:36:40 [INFO]- Main window opened
+09-06-2020 09:36:47 [INFO]- Admin window opened. Admin: admin
+09-06-2020 09:37:15 [INFO]- Main window opened
