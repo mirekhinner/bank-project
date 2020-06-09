@@ -79,3 +79,46 @@ C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\Customer
 C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\CustomerWindow.baml
 C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\TransactionWindow.g.cs
 C:\Users\hinnemir\Desktop\Bootcamp2 C#\Project Bank\Bank\Bank\obj\Debug\TransactionWindow.baml
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\mongocrypt.dll
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\Bank.exe.config
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\Bank.exe
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\Bank.pdb
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\Crc32C.NET.dll
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\DnsClient.dll
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\MongoDB.Bson.dll
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\MongoDB.Driver.Core.dll
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\MongoDB.Driver.dll
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\SharpCompress.dll
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\Snappy.NET.dll
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\System.Buffers.dll
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\System.ComponentModel.Annotations.dll
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\Crc32C.NET.xml
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\DnsClient.xml
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\MongoDB.Bson.xml
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\MongoDB.Driver.xml
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\MongoDB.Driver.Core.xml
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\Snappy.NET.xml
+C:\projects\c_sharp\bank-project\Bank\bin\Debug\System.Buffers.xml
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\Bank.csprojAssemblyReference.cache
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\AdminWindow.g.cs
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\CustomerWindow.g.cs
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\MainWindow.g.cs
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\OfficialWindow.g.cs
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\TransactionWindow.g.cs
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\App.g.cs
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\Bank_Content.g.cs
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\Bank_MarkupCompile.cache
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\Bank_MarkupCompile.lref
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\AdminWindow.baml
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\CustomerWindow.baml
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\MainWindow.baml
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\OfficialWindow.baml
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\TransactionWindow.baml
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\Bank.g.resources
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\Bank.Properties.Resources.resources
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\Bank.csproj.GenerateResource.cache
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\Bank.csproj.CopyComplete
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\Bank.exe
+C:\projects\c_sharp\bank-project\Bank\obj\Debug\Bank.pdb

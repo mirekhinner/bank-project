@@ -35,6 +35,7 @@ namespace Bank
         {
             Admin.address = new Address();
 
+            // komentar abychom zjistili, jestli funguje na gitu
 
             if (UserORM.GetMaxAddressId() != -1)
             {
